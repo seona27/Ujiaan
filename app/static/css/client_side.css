@@ -176,17 +176,17 @@ button[type=submit]:hover {
   color: #2f2f2f;
 }
 
-.col-sm-4 img {
-  height: 100px ;
-  width: 100px;
+.col-sm img {
+  height: 200px ;
+  width: 200px;
   object-fit: cover;
   /* border: 3px solid #0d47a1 ; */
 }
 
-.col-sm-4 img#not {
+.col-sm img#not {
   object-fit: cover;
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 200px;
   object-position: 0px ; 
 }
 
