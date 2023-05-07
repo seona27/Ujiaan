@@ -176,10 +176,21 @@ button[type=submit]:hover {
   color: #2f2f2f;
 }
 
-.col-sm-4{
-  object-fit : cover;
-  height: 10;
+.col-sm-4 img {
+  height: 100px ;
+  width: 100px;
+  object-fit: cover;
+  /* border: 3px solid #0d47a1 ; */
 }
+
+.col-sm-4 img#not {
+  object-fit: cover;
+  height: 100px;
+  width: 100px;
+  object-position: 0px ; 
+}
+
+
 
 .bg-blue {
 	background-color: #bde2f9;
