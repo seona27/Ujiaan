@@ -17,9 +17,7 @@
 	<link rel="stylesheet" href={{ url_for('static', filename='/css/bootstrap.min.css') }} type="text/css">
 	<link rel="stylesheet" href={{ url_for('static', filename='/css/client_side.css') }}  type="text/css">
 	
-	<!-- JavaScript -->
-	<script src={{ url_for('static', filename='/js/jquery_3.6.0.min.js') }} ></script>
-	<script src={{ url_for('static', filename='/js/bootstrap_3.4.1.min.js') }} ></script>
+	
 </head>
 
 <body id="halamanku" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -152,39 +150,32 @@
     <!-- Bagian Halaman (Anggota Kelompok) -->
 	<div id="Team" class="container-fluid text-center">
 		<br>
-		<h2>ANGGOTA KELOMPOK</h2>
+		<h2>ANGGOTA KELOMPOK 3 INSIGHT </h2>
 		<h4>Tim Deployment dan Tim NLP</h4>
 		<br>
 		<div class="row slideanim">
 			<div class="col-sm-4">
-				<span class="glyphicon glyphicon-user logo-small"></span>
-				<h4>BUDI</h4>
-				<p>Universitas Sumatera</p>
+				<span><img src={{ url_for('static', filename='/images/yunus.JPG') }} height="200" ></img></span>
+				<h4>Ahmad Yunus</h4>
+				<p>STMIK AMIK Bandung</p>
 			</div>
 			<div class="col-sm-4">
-				<span class="glyphicon glyphicon-user logo-small"></span>
-				<h4>AYU</h4>
-				<p>Universitas Jawa dan Bali</p>
+				<span><img src={{ url_for('static', filename='/images/abdu.JPG') }} height="200px"></img></span>
+				<h4>Muhammad Abdu Syakur</h4>
+				<p>STMIK Bandung</p>
 			</div>
 			<div class="col-sm-4">
-				<span class="glyphicon glyphicon-user logo-small"></span>
-				<h4>TONO</h4>
-				<p>Universitas Kalimantan</p>
+				<span><img src={{ url_for('static', filename='/images/meli.JPG') }} height="200" object-fit="cover" ></img></span>
+				<h4>Meliana Lalita Putri</h4>
+				<p>Universitas Pendidikan Indonesia</p>
 			</div>
+			<div class="col-sm-4">
+				<span><img class="image-thumbnail" src={{ url_for('static', filename='/images/ayu.JPG') }} height="200" ></img></span>
+				<h4>Rahayu Maharani</h4>
+				<p>Universitas Presiden</p>
 		</div>
 	    <br>
-	    <div class="row slideanim">
-			<div class="col-sm-6">
-				<span class="glyphicon glyphicon-user logo-small"></span>
-				<h4>PUTRA</h4>
-				<p>Universitas Sulawesi</p>
-			</div>
-			<div class="col-sm-6">
-				<span class="glyphicon glyphicon-user logo-small"></span>
-				<h4>PUTRI</h4>
-				<p>Universitas Kepulauan Nusa, Maluku dan Papua</p>
-			</div>
-	    </div>
+	    
 	</div>
 
 
@@ -200,5 +191,9 @@
 	<!-- JavaScript untuk Animasi Scroll dan Prediksi Model -->
 	<script  src={{ url_for('static', filename='/js/client_side.js') }}></script>
 
+
+	<!-- JavaScript -->
+	<script src={{ url_for('static', filename='/js/jquery_3.6.0.min.js') }} ></script>
+	<script src={{ url_for('static', filename='/js/bootstrap_3.4.1.min.js') }} ></script>
 </body>
 </html>

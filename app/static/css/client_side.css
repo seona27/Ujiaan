@@ -24,7 +24,7 @@
 }
 
 .material-icons {
-  font-family: 'Material Icons';
+  font-family: 'Times New Roman';
   font-weight: normal;
   font-style: normal;
   font-size: 24px;
@@ -66,6 +66,7 @@
 
 /* CSS for Home Section */
 #halamanku {
+  /* background-image: url('app\static\images\bg.jpg'); */
   background-size: cover;
   background-position: center;
 }
@@ -74,7 +75,7 @@
 #About {
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: #ffffff;
+  background-image: #ffffff;
 }
 
 #About h2 {
@@ -175,6 +176,10 @@ button[type=submit]:hover {
   color: #2f2f2f;
 }
 
+.col-sm-4{
+  object-fit : cover;
+  height: 10;
+}
 
 .bg-blue {
 	background-color: #bde2f9;
@@ -221,7 +226,7 @@ footer .glyphicon {
 }
   
 .slideanim {
-	visibility:hidden;
+	visibility:default;
 }
 
 .slide {
