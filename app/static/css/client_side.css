@@ -114,6 +114,12 @@
   border-color: #fbf9f9;
 }
 
+.container {
+  padding-bottom: 0 !important;
+}
+
+
+
 /* CSS for Application Section */
 #Application {
   padding-top: 50px;
@@ -157,7 +163,7 @@ button[type=submit]:hover {
 /* CSS for Team Section */
 #Team {
   padding-top: 10px;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
   background-color: #ffffff;
 }
 
@@ -261,9 +267,17 @@ button[type=submit]:hover {
   background: linear-gradient(90deg, rgba(229,67,3,1) 0%, rgb(13,110,253) 50%, rgba(248,251,87,1) 100%);
 }
 
+.top:hover {
+  width:30px; background-color: rgb(44, 104, 194); border-radius: 10px;
+}
+
 footer {
   margin: 0;
   padding: 0;
+}
+
+footer p {
+  margin: 0;
 }
   
 footer .glyphicon {
