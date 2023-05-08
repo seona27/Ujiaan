@@ -37,10 +37,10 @@
 		<div class="container">
 			
 			<!-- Logo -->
-			<div class="navbar-header">
+			<div class="navbar-header" style="justify-content: center;">
 				<!-- <img src={{ url_for('static', filename='/images/orbit_logo.jpg') }} alt="Orbit Logo" 
 				width="50" height="50" align="left"> -->
-				<a class="navbar-brand" href="#halamanku">&#160; Sentimen Analysis</a>
+				<a style="text-align: center;" class="navbar-brand" href="#halamanku">&#160; Sentimen Analysis</a>
 			</div>
 			
 			<!-- Daftar Halaman -->
@@ -59,7 +59,7 @@
     <div style="text-align:center;">
         <img src={{ url_for('static', filename='/images/tiga.PNG') }} width="50%" style="padding-top: 30px;"></img>
 		<br><br>
-        <button class="btn btn-primary" type="button" onclick="window.location.href='#About';">Get Started</button>
+        <button class="btn btn-primary" type="button" onclick="window.location.href='#About';" class="">Apa itu Sentimen Anlysis?</button>
 	</div>
 
 	<!-- Bagian Halaman (About) -->
@@ -80,13 +80,13 @@
 			    <br>
 
 				<!-- Tombol Mulai -->
-				<nav id="navgo" class="navbar" style="background-color:#ffffff;z-index: 0;">
+				<div id="navgo" style="background-color:#ffffff;z-index: 0;">
 					<ul class="nav nav-pills">
 						<li class="nav-item">
-							<a class="btn btn-primary btn-lg" href="#Application" style="background-color: #0dcaf0;">Mulai</a>
+							<a class="btn btn-primary btn-lg" href="#Application">Mulai</a>
 						</li>
 					</ul>
-				</nav>
+				</div>
 
 			</div>
 			<div class="col-sm-6">
@@ -99,7 +99,7 @@
 	</div>
 
 	<!-- Bagian Halaman (Aplikasi) -->
-    <div class="container">
+    <div class="container" id="Application">
         <div class="row">
            <div class="col-md-6 offset-md-3 text-center">
 				<h2 class="text-center">Deteksi Sentiment Analysis!</h2>

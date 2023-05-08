@@ -221,7 +221,9 @@ button[type=submit]:hover {
 .navbar {
 	margin-bottom: 0;
   padding: 10px;
-	background-color: #0dcaf0;
+	/* background-color: #0dcaf0; */
+  background: rgb(229,67,3);
+  background: linear-gradient(90deg, rgba(229,67,3,1) 0%, rgba(97,204,236,1) 50%, rgba(248,251,87,1) 100%);
 	z-index: 9999;
 	border: 0;
 	font-size: 12px !important;
@@ -242,6 +244,11 @@ button[type=submit]:hover {
 .navbar-default .navbar-toggle {
 	border-color: transparent;
 	color: #fff !important;
+}
+
+.btn-bg {
+  background: rgb(229,67,3);
+  background: linear-gradient(90deg, rgba(229,67,3,1) 0%, rgba(97,204,236,1) 50%, rgba(248,251,87,1) 100%);
 }
 
 footer {
