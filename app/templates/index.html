@@ -37,19 +37,21 @@
 		<div class="container">
 			
 			<!-- Logo -->
-			<div class="navbar-header" style="justify-content: center;">
+			<div class="navbar-header">
 				<!-- <img src={{ url_for('static', filename='/images/orbit_logo.jpg') }} alt="Orbit Logo" 
 				width="50" height="50" align="left"> -->
-				<a style="text-align: center;" class="navbar-brand" href="#halamanku">&#160; Sentimen Analysis</a>
+				<a class="navbar-brand" href="#halamanku">&#160; Sentimen Analysis</a>
 			</div>
-			
+			<button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 			<!-- Daftar Halaman -->
 			<div class="collapse navbar-collapse" id="myNavbar">
-				<ul class="nav navbar-nav navbar-right">
-                    <li><a href="#Home">Home</a></li>
-					<li><a href="#About">About</a></li>
-					<li><a href="#Application">Application</a></li>
-					<li><a href="#Team">Team</a></li>
+				<ul class="nav navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link" href="#Home" aria-current="page">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="#About">About</a></li>
+					<li class="nav-item"><a class="nav-link" href="#Application">Application</a></li>
+					<li class="nav-item"><a class="nav-link" href="#Team">Team</a></li>
 				</ul>
 			</div>
 		</div>
@@ -59,7 +61,7 @@
     <div style="text-align:center;">
         <img src={{ url_for('static', filename='/images/tiga.PNG') }} width="50%" style="padding-top: 30px;"></img>
 		<br><br>
-        <button class="btn btn-primary" type="button" onclick="window.location.href='#About';" class="">Apa itu Sentimen Anlysis?</button>
+        <button class="btn btn-primary" type="button" onclick="window.location.href='#About';" class="">Apa itu Sentimen Analysis?</button>
 	</div>
 
 	<!-- Bagian Halaman (About) -->
@@ -169,7 +171,7 @@
 		<h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam laborum ut, voluptate hic quia, cum asperiores ipsum iste tenetur fuga, eum dolorem tempora ipsam pariatur quisquam praesentium? Alias, officiis praesentium. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum deserunt eum excepturi vero necessitatibus laboriosam unde nam suscipit omnis hic quasi, quo consectetur eius dolor, deleniti, sit assumenda libero corrupti!</h6><br>
 		<div class="row row-cols-auto slideanim">
 			<div class="col-sm">
-				<span><img class="border border-info border-3 rounded-circle" src={{ url_for('static', filename='/images/yunus.JPG') }} height="200" ></img></span>
+				<span><img class="border border-info border-3 rounded-circle" src={{ url_for('static', filename='/images/yunus.PNG') }} height="200" ></img></span>
 				<h4>Ahmad Yunus</h4>
 				<p>STMIK AMIK Bandung</p>
 			</div>

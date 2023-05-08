@@ -103,6 +103,11 @@
   border-color: #0d47a1;
 }
 
+.nav-item{
+  padding:10px;
+  text-align: center;
+}
+
 #navgo .nav>li>a.btn:hover {
   background-color: #4ABDAC;
   border-color: #4ABDAC;
