@@ -200,16 +200,16 @@ button[type=submit]:hover {
 }
 
 .col-sm img {
-  height: 200px ;
-  width: 200px;
+  height: 180px ;
+  width: 180px;
   object-fit: cover;
   /* border: 3px solid #0d47a1 ; */
 }
 
 .col-sm img#not {
   object-fit: cover;
-  height: 200px;
-  width: 200px;
+  height: 180px;
+  width: 180px;
   object-position: 0px ; 
 }
 
@@ -274,6 +274,7 @@ button[type=submit]:hover {
 footer {
   margin: 0;
   padding: 0;
+  background-color: #a2daf3;
 }
 
 footer p {
