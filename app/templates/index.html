@@ -14,6 +14,7 @@
 	
 	<!-- Icon -->
 	<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+	<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 	
 	<!-- ini connected  -->
 	<!-- CSS -->
@@ -56,9 +57,9 @@
 
     <!-- Bagian Home -->
     <div style="text-align:center;">
-        <img src={{ url_for('static', filename='/images/home.JPG') }} width="1000" ></img>
+        <img src={{ url_for('static', filename='/images/tiga.PNG') }} width="50%" style="padding-top: 30px;"></img>
 		<br><br>
-        <button onclick="window.location.href='#About';">Get Started</button>
+        <button class="btn btn-primary" type="button" onclick="window.location.href='#About';">Get Started</button>
 	</div>
 
 	<!-- Bagian Halaman (About) -->
@@ -82,7 +83,7 @@
 				<nav id="navgo" class="navbar" style="background-color:#ffffff;z-index: 0;">
 					<ul class="nav nav-pills">
 						<li class="nav-item">
-							<a class="btn btn-default btn-lg" href="#Application" style="background-color:#4ABDAC">Mulai</a>
+							<a class="btn btn-primary btn-lg" href="#Application" style="background-color: #0dcaf0;">Mulai</a>
 						</li>
 					</ul>
 				</nav>
@@ -92,7 +93,7 @@
 				<br>
 				<br>
 				<!-- Gambar Deskripsi Aplikasi -->
-				<img src={{ url_for('static', filename='/images/sentiment.JPG') }} width="500" ></img>
+				<img src={{ url_for('static', filename='/images/sentiment-word-cloud.PNG') }} width="500" ></img>
 			</div>
 		</div>
 	</div>
@@ -101,20 +102,23 @@
     <div class="container">
         <div class="row">
            <div class="col-md-6 offset-md-3 text-center">
-		<h2 class="text-center">Deteksi Sentiment Analysis!</h2>
-	</div>
-        <!--h1 align="center">A machine learning end to end flask web app for <b>"Sentiment Analysis" </b>model created using Scikit-learn &amp; VADER Sentiment.</h1-->
+				<h2 class="text-center">Deteksi Sentiment Analysis!</h2>
+			</div>
+			<!--h1 align="center">A machine learning end to end flask web app for <b>"Sentiment Analysis" </b>model created using Scikit-learn &amp; VADER Sentiment.</h1-->
 		</br></br><div align="center">
 			<form method="POST">
 				<textarea name="text1" placeholder="Katakan Sesuatu: ...." rows="5" cols="100"></textarea><br><br>
-
-				<input class="btn btn-success" type="submit">
+				
+				<input class="btn btn-primary" type="submit">
 			</form>
 		</div>
+	
         {% if final %}
+	
 		
 <!--result start -->		
-      </br></br>  <div align="center">
+      	</br></br>  
+	  	<div align="center">
            </br>  </br>
 		   <h2 class="bg-success text-white">Hasil Sentiment</h2>
 		   '{{ text1 }}' 
@@ -165,38 +169,39 @@
 		<h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam laborum ut, voluptate hic quia, cum asperiores ipsum iste tenetur fuga, eum dolorem tempora ipsam pariatur quisquam praesentium? Alias, officiis praesentium. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum deserunt eum excepturi vero necessitatibus laboriosam unde nam suscipit omnis hic quasi, quo consectetur eius dolor, deleniti, sit assumenda libero corrupti!</h6><br>
 		<div class="row row-cols-auto slideanim">
 			<div class="col-sm">
-				<span><img class="border border-primary border-3 rounded-circle" src={{ url_for('static', filename='/images/yunus.JPG') }} height="200" ></img></span>
+				<span><img class="border border-info border-3 rounded-circle" src={{ url_for('static', filename='/images/yunus.JPG') }} height="200" ></img></span>
 				<h4>Ahmad Yunus</h4>
 				<p>STMIK AMIK Bandung</p>
 			</div>
 			<div class="col-sm">
-				<span><img class="border border-primary border-3 rounded-circle" src={{ url_for('static', filename='/images/abdu.JPG') }} height="200px"></img></span>
+				<span><img class="border border-info border-3 rounded-circle" src={{ url_for('static', filename='/images/abdu.JPG') }} height="200px"></img></span>
 				<h4>Muhammad Abdu Syakur</h4>
 				<p>STMIK Bandung</p>
 			</div>
 			<div class="col-sm">
-				<span><img class="border border-primary border-3 rounded-circle" src={{ url_for('static', filename='/images/meli.JPG') }}  id="not"></img></span>
+				<span><img class="border border-info border-3 rounded-circle" src={{ url_for('static', filename='/images/meli.JPG') }}  id="not"></img></span>
 				<h4>Meliana Lalita Putri</h4>
 				<p>Universitas Pendidikan Indonesia</p>
 			</div>
 			<div class="col-sm">
-				<span><img class="border border-primary border-3 rounded-circle" src={{ url_for('static', filename='/images/ayu.JPG') }} height="200" ></img></span>
+				<span><img class="border border-info border-3 rounded-circle" src={{ url_for('static', filename='/images/ayu.JPG') }} height="200" ></img></span>
 				<h4>Rahayu Maharani</h4>
 				<p>Universitas Presiden</p>
 			</div>
-		</div>
-	    <br>
-	    
+		</div>	    
+	</div>
 	</div>
 
 
 
-	<!-- Footer -->
-	<footer class="container-fluid text-center">
+	<footer class="text-center bg-info bg-gradient">
 		<a href="#halamanku" title="To Top">
 			<p>top</p>
 			<span class="glyphicon glyphicon-chevron-up"></span>
 		</a>
+		<div style="margin:0; padding: 0;">
+			<img src={{ url_for('static', filename='/images/logo_last.jpg') }} alt="Orbit Logo" id="imageL"  >
+		</div>
 		<p> &copy; Insight 3 (Orbit Academy) - 2023</p>
 	</footer>
 
