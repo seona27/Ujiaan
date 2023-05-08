@@ -65,11 +65,12 @@
 }
 
 /* CSS for Home Section */
-#halamanku {
-  /* background-image: url('app\static\images\bg.jpg'); */
-  background-size: cover;
+/* #halamanku {
+  background: url('..\images\bg.jpg');
+  background-size: auto;
+  background-repeat: repeat;
   background-position: center;
-}
+} */
 
 /* CSS for About Section */
 #About {
