@@ -87,7 +87,8 @@
 
 #About h2 {
   font-size: 30px;
-  color: #4ABDAC;
+  color: #41a8f2;
+  /* #61ccec #0d6efd*/ 
   font-weight: bold;
 }
 
@@ -97,11 +98,11 @@
   color: #2f2f2f;
 }
 
-#navgo .nav>li>a.btn {
+/* #navgo .nav>li>a.btn {
   color: #ffffff;
   background-color: #0d47a1;
   border-color: #0d47a1;
-}
+} */
 
 .nav-item{
   padding:10px;
@@ -109,8 +110,8 @@
 }
 
 #navgo .nav>li>a.btn:hover {
-  background-color: #4ABDAC;
-  border-color: #4ABDAC;
+  background-color: #2ac754;
+  border-color: #fbf9f9;
 }
 
 /* CSS for Application Section */
@@ -122,7 +123,7 @@
 
 #Application h2 {
   font-size: 40px;
-  color: #4ABDAC;
+  color: #54bdef;
   font-weight: bold;
 }
 
@@ -133,7 +134,7 @@ textarea[name=text1] {
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 5px;
-  border: 2px solid #4ABDAC;
+  border: 2px solid #54bdef;
   resize: none;
 }
 
@@ -144,7 +145,7 @@ button[type=submit] {
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 5px;
-  background-color: #4ABDAC;
+  background-color: #61ccec;
   color: #ffffff;
   border: none;
 }
@@ -155,15 +156,19 @@ button[type=submit]:hover {
 
 /* CSS for Team Section */
 #Team {
-  padding-top: 30px;
+  padding-top: 10px;
   padding-bottom: 50px;
   background-color: #ffffff;
 }
 
 #Team h2 {
   font-size: 30px;
-  color: #4ABDAC;
+  color: #61ccec;
   font-weight: bold;
+}
+
+.col-sm-6 {
+  margin: 50px;
 }
 
 #Team .team-member {
@@ -228,7 +233,7 @@ button[type=submit]:hover {
   padding: 10px;
 	/* background-color: #0dcaf0; */
   background: rgb(229,67,3);
-  background: linear-gradient(90deg, rgba(229,67,3,1) 0%, rgba(97,204,236,1) 50%, rgba(248,251,87,1) 100%);
+  background: linear-gradient(90deg, rgba(229,67,3,1) 0%, rgb(13,110,253) 10%, rgba(248,251,87,1) 100%);
 	z-index: 9999;
 	border: 0;
 	font-size: 12px !important;
@@ -253,7 +258,7 @@ button[type=submit]:hover {
 
 .btn-bg {
   background: rgb(229,67,3);
-  background: linear-gradient(90deg, rgba(229,67,3,1) 0%, rgba(97,204,236,1) 50%, rgba(248,251,87,1) 100%);
+  background: linear-gradient(90deg, rgba(229,67,3,1) 0%, rgb(13,110,253) 50%, rgba(248,251,87,1) 100%);
 }
 
 footer {
